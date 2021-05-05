@@ -1,0 +1,48 @@
+#bg{
+    background-color: black;
+    
+}
+
+
+.footer  ul  {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  }
+
+ .right{
+     margin-right: 200px;
+ }
+
+.col{
+   
+    column-count: 0;
+}
+.logo{
+
+    display: inline-flex;
+    margin-left: 300px;
+}
+::placeholder {
+    color: black;
+    font-size: 16px;
+}
+#email-input{
+    width: 200px ;
+    height: 30px;
+     border: 1 px solid gray;
+      background-color: gray;
+}
+.img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+.location {
+    text-align: center;
+    letter-spacing: 20px;
+    background-color: rgba(255, 238, 0, 0.829);
+  
+   
+    
+}
